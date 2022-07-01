@@ -1,0 +1,70 @@
+backend:
+  name: git-gateway
+  repo: iteam-consulting/phoenix-wright
+  branch: master
+media_folder: static/assets
+public_folder: /assets
+
+collections:
+
+  - name: attorneys
+    label: Attorneys
+    folder: attorneys
+    identifier_field: name
+    create: true
+    fields:
+      - { name: name, label: Name }
+      - { name: thumbnail, label: Thumbnail, widget: image, required: false }
+      - { name: headshot, label: Headshot, widget: image, required: false }
+      - label: Activities and Affiliations
+        name: activities and affiliations
+        widget: list
+        allow_add: true
+        fields:
+          - label: Name
+            name: name
+          - label: Supporting
+            name: supporting
+            widget: list
+            allow_add: true
+            required: false
+      - label: focuses
+        name: focuses
+        minimize_collapsed: true
+        widget: list
+      - { name: body, label: Body, widget: markdown }
+
+  - name: practice areas
+    label: Practice Areas
+    folder: practice-areas
+    identifier_field: practice-area
+    create: true
+    fields:
+      - { name: practice-area, label: Practice Area }
+      - { name: blurb, label: Blurb }
+      - { name: experience, label: Experience, widget: list, allow_add: true, required: false }
+      - { name: offerings, label: Offerings, widget: list, allow_add: true, required: false }
+
+  - name: staff
+    label: Staff
+    folder: staff
+    identifier_field: name
+    create: true
+    fields:
+      - { name: name, label: Name }
+      - { name: title, label: Title }
+      - { name: email, label: Email }
+      - { name: thumbnail, label: Thumbnail, widget: image, required: false }
+      - { name: body, label: Body, widget: markdown}
+
+  - name: news and events
+    label: News and Events
+    folder: news-and-events
+    identifier_field: event-name
+    create: true
+    fields:
+      - { name: event-name, label: Event Name }
+      - { name: event-banner, label: Event Banner, widget: image, required: false }
+      - { name: start-date, label: Start Date, widget: datetime }
+      - { name: end-date, label: End Date, widget: datetime }
+      - { name: body, label: Body, widget: markdown }
