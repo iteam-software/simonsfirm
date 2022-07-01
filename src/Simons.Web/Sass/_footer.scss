@@ -1,0 +1,39 @@
+/* -------------------- Footer -------------------- */
+footer {
+    background-color: $footer-bg;
+    box-shadow: 0px 0px 5px $footer-bg;
+    color: $footer-fg;
+    font-weight: 300;
+    line-height: 1.5;
+    padding: 20px 0;
+    
+    .center {
+        margin: 0 auto 45px;
+        width: 85%;
+    }
+    
+    .sharefile-logo {
+        margin-top: 5px;
+        
+        img {
+            max-width: 150px;
+        }
+    }
+    
+    .badges {
+        background-color: #fff;
+        display: inline-block;
+        padding: 5px;
+        border-radius: 5px;
+        margin: 2px;
+    }
+
+    a.badges {
+        opacity: 1;
+        transition: opacity ease-in-out 0.2s;
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+}

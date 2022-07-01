@@ -1,0 +1,37 @@
+@{
+    ViewData["Title"] = "Civil Litigation & Appeals";
+}
+
+<div class="splash-beg"></div>
+<div class="splash-title fixedsticky">@ViewData["Title"]</div>
+<div class="splash-end"></div>
+
+<div class="center">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <div class="row">
+                <div class="col-xs-12 practice-area-desc line-under">
+                    When trial is the best means of resolving an issue, we will not hesitate to try your case before a jury or judge. We will also advise you if there are other ways to resolve your particular issue without going to trial. All of our attorneys are experienced litigators.
+                </div>
+            </div>
+            <div class="row row-pad-bot">
+                <div class="col-lg-6 col-lg-offset-3 card">
+                    <div class="card-title">The Simons Firm has:</div>
+                    <div class="card-body">
+                        <ul>
+                            <li><span class="fa fa-li fa-check"></span>Successfully tried hundreds of civil cases before juries and judges throughout New Mexico.</li>
+                            <li><span class="fa fa-li fa-check"></span>Obtained numerous judgments for our clients before trial.</li>
+                            <li><span class="fa fa-li fa-check"></span>Resolved cases through both mediation and arbitration.</li>
+                            <li><span class="fa fa-li fa-check"></span>Effectively handled appeals for clients, both from administrative decisions and court orders.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-xs-12">
+                    <a class="practice-area-button" href="mailto:all@simonsfirm.com?subject=@Uri.EscapeDataString((string) ViewData["Title"])%20Inquiry"><span class="fa fa-envelope"></span> Send @ViewData["Title"] Inquiry</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,36 @@
+@{
+    ViewData["Title"] = "Construction Law";
+}
+
+<div class="splash-beg"></div>
+<div class="splash-title fixedsticky">@ViewData["Title"]</div>
+<div class="splash-end"></div>
+
+<div class="center">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <div class="row">
+                <div class="col-xs-12 practice-area-desc line-under">
+                    Whether you are a contractor, subcontractor, architect, engineer, or individual, The Simons Firm can help you with strategic analysis, dispute resolution and negotiation, and litgation firepower to successfully resolve any construction related legal matter.
+                </div>
+            </div>
+            <div class="row row-pad-bot">
+                <div class="col-lg-6 col-lg-offset-3 card">
+                    <div class="card-title">Experience</div>
+                    <div class="card-body">
+                        <ul>
+                            <li><span class="fa fa-li fa-legal"></span>Successfully trying and arbitrating many construction related cases throughout New Mexico</li>
+                            <li><span class="fa fa-li fa-legal"></span>Negotiating numerous advantageous settlement for our clients before trial</li>
+                            <li><span class="fa fa-li fa-legal"></span>Enforcing contractual obligations on behalf of clients throughout New Mexico</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-xs-12">
+                    <a class="practice-area-button" href="mailto:all@simonsfirm.com?subject=@Uri.EscapeDataString((string) ViewData["Title"])%20Inquiry"><span class="fa fa-envelope"></span> Send @ViewData["Title"] Inquiry</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

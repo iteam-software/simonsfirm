@@ -1,0 +1,39 @@
+@{
+    ViewData["Title"] = "Insurance Defense";
+}
+
+<div class="splash-beg"></div>
+<div class="splash-title fixedsticky">@ViewData["Title"]</div>
+<div class="splash-end"></div>
+
+<div class="center">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <div class="row">
+                <div class="col-xs-12 practice-area-desc line-under">
+                    The Simons Firm has a 43 year history of successful insurance defense.
+                </div>
+            </div>
+            <div class="row row-pad-bot">
+                <div class="col-lg-6 col-lg-offset-3 card">
+                    <div class="card-title">Experience</div>
+                    <div class="card-body">
+                        <ul>
+                            <li><span class="fa fa-li fa-check"></span>Personal injury and wrongful death defense</li>
+                            <li><span class="fa fa-li fa-check"></span>Property damage defense</li>
+                            <li><span class="fa fa-li fa-check"></span>Homeowner policy defense</li>
+                            <li><span class="fa fa-li fa-check"></span>Auto liability defense</li>
+                            <li><span class="fa fa-li fa-check"></span>Other comprehensive general liability defense</li>
+                            <li><span class="fa fa-li fa-check"></span>Insurance coverage issue defense</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-xs-12">
+                    <a class="practice-area-button" href="mailto:all@simonsfirm.com?subject=@Uri.EscapeDataString((string) ViewData["Title"])%20Inquiry"><span class="fa fa-envelope"></span> Send @ViewData["Title"] Inquiry</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

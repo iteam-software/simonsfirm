@@ -1,0 +1,52 @@
+﻿@{
+  ViewData["Title"] = "Family Law";
+}
+
+<div class="splash-beg"></div>
+<div class="splash-title fixedsticky">@ViewData["Title"]</div>
+<div class="splash-end"></div>
+
+<div class="center">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+      <div class="row">
+        <div class="col-xs-12 practice-area-desc line-under">
+          We provide client representation in all areas of family law
+        </div>
+      </div>
+      <div class="row row-cards">
+        <div class="col-lg-6 card">
+          <div class="card-title">Offerings</div>
+          <div class="card-body">
+            <ul>
+              <li><span class="fa fa-li fa-users"></span>Divorce</li>
+              <li><span class="fa fa-li fa-users"></span>Collaborative Divorce Custody</li>
+              <li><span class="fa fa-li fa-users"></span>Child Support</li>
+              <li><span class="fa fa-li fa-users"></span>Paternity</li>
+              <li><span class="fa fa-li fa-users"></span>Alimony</li>
+              <li><span class="fa fa-li fa-users"></span>Prenuptial and Postnuptial Agreements</li>
+              <li><span class="fa fa-li fa-users"></span>Grandparent Visitation</li>
+              <li><span class="fa fa-li fa-users"></span>Kinship Guardianships</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6 card">
+          <div class="card-title">Experience</div>
+          <div class="card-body">
+            <ul>
+              <li><span class="fa fa-li fa-users"></span>Mediation</li>
+              <li><span class="fa fa-li fa-users"></span>Settlement Facilitation</li>
+              <li><span class="fa fa-li fa-users"></span>Collaborative Divorce</li>
+              <li><span class="fa fa-li fa-users"></span>Guardian ad Litem for children and adults</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-xs-12">
+          <a class="practice-area-button" href="mailto:all@simonsfirm.com?subject=@Uri.EscapeDataString((string) ViewData["Title"])%20Inquiry"><span class="fa fa-envelope"></span> Send @ViewData["Title"] Inquiry</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
