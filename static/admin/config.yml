@@ -1,7 +1,6 @@
 backend:
   name: git-gateway
-  repo: iteam-consulting/phoenix-wright
-  branch: master
+  repo: iteam-software/simonsfirm
 media_folder: static/assets
 public_folder: /assets
 
