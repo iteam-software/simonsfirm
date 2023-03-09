@@ -1,6 +1,6 @@
 ---
 name: AUDRA M. BURDWELL
-title: PARALEGAL
+title: OFFICE MANAGER/PARALEGAL
 email: aburdwell@simonsfirm.com
 thumbnail: /assets/audra-burdwell-thumbnail.jpg
 ---
