@@ -3,7 +3,6 @@ name: FRIEDA S. SIMONS
 thumbnail: /assets/freida_simons_thumbnail.png
 headshot: /assets/freida_simons_banner.png
 activities and affiliations:
-  - name: Supreme Court Minimum Continuing Legal Education Committee
   - name: Awarded the Judge Oliver Seth Award in Ethics
   - name: Oliver Seth Inn of Court of Northern New Mexico
   - name: New Mexico Defense Lawyers Association
@@ -11,12 +10,7 @@ activities and affiliations:
   - name: State Bar of New Mexico
   - name: American Bar Association
   - name: Federal Bar Association
-  - name: Desert Montessori School
-    supporting:
-      - Board of Directors
-  - name: Museum of New Mexico Foundation
-    supporting:
-      - Board of Directors, Vice-Chair
+  - name: Museum of New Mexico Foundation, Board of Trustees, Chair
 focuses:
   - Trust and Estate Litigation
   - Representing homeowners, homeowner’s associations and financial institutions
