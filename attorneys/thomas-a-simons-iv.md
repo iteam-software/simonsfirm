@@ -2,6 +2,7 @@
 name: THOMAS A. SIMONS, IV
 thumbnail: /assets/tom-thumbnail.png
 headshot: /assets/tom.png
+order: 3
 activities and affiliations:
   - name: Founding member and prior President of New Mexico Defense Lawyers Association
   - name: Federation of Defense and Corporate Counsel

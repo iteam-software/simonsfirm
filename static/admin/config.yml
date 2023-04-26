@@ -12,6 +12,7 @@ collections:
     folder: attorneys
     identifier_field: name
     create: true
+    order: number
     fields:
       - { name: name, label: Name }
       - { name: thumbnail, label: Thumbnail, widget: image, required: false }
