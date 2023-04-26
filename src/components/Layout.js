@@ -9,8 +9,7 @@ export const AttorneysAndPracticeAreasContext = React.createContext();
 export default function Layout({ pageTitle, url, description, children }) {
   const attorneysAndPracticeAreasQuery = graphql`
     query AttorneysAndPracticeAreasQuery {
-      attorneys: allFile(filter: { sourceInstanceName: { eq: "attorneys" } }, 
-                          orderBy: { order: asc }) {
+      attorneys: allFile(filter: { sourceInstanceName: { eq: "attorneys" } }, sort: {order: ASC, fields: childMarkdownRemark___frontmatter___order}) {
         nodes {
           name
           childMarkdownRemark {
