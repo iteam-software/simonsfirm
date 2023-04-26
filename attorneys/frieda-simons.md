@@ -2,6 +2,7 @@
 name: FRIEDA S. SIMONS
 thumbnail: /assets/freida_simons_thumbnail.png
 headshot: /assets/freida_simons_banner.png
+order: 0
 activities and affiliations:
   - name: Awarded the Judge Oliver Seth Award in Ethics
   - name: Oliver Seth Inn of Court of Northern New Mexico

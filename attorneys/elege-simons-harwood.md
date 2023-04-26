@@ -2,6 +2,7 @@
 name: ELEGE SIMONS HARWOOD
 thumbnail: /assets/elege-thumbnail.png
 headshot: /assets/elege-banner-1200w.jpg
+order: 2
 activities and affiliations:
   - name: Member State Bar of New Mexico
   - name: Member First Judicial District Bar

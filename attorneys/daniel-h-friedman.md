@@ -2,6 +2,7 @@
 name: DANIEL H. FRIEDMAN
 thumbnail: /assets/dan-thumbnail.png
 headshot: /assets/dan.png
+order: 4
 activities and affiliations:
   - name: Founder of Simons and Cuddy & Friedman
 focuses:

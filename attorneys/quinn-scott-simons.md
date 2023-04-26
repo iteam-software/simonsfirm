@@ -2,6 +2,7 @@
 name: QUINN SCOTT SIMONS
 thumbnail: /assets/quinn-thumbnail.png
 headshot: /assets/quinn.png
+order: 1
 activities and affiliations:
   - name: Judge Oliver Seth Inn of Court
   - name: NM Defense Lawyers Association
