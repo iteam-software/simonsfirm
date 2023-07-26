@@ -1,4 +1,4 @@
-# Phoenix Wright
+# The Simons Firm
 
 Website for The Simons Firm in Santa Fe, New Mexico. The website is built using GatsbyJS and hosted on Netlify. Utilizes the Netlify CMS for content management.
 
